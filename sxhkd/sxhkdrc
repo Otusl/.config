@@ -1,0 +1,36 @@
+# Opens Simple Terminal
+super + Return
+	st
+# Opens rofi
+# super + p
+#	rofi -show drun
+# Opens lf
+super + shift + f
+	st -e ~/.local/bin/lfub
+# Opens Spotify
+super + m
+	spotify-launcher
+# Opens Firefox
+super + w
+	librewolf
+# Opens flameshot GUI
+Print
+	flameshot gui
+# Opens Obsidian
+super + o
+	obsidian
+# Opens Powermenu
+super + BackSpace 
+	~/.config/rofi/powermenu/powermenu.sh 
+# Opens Calibre
+super + shift + b
+	calibre
+# Opens Newsboat
+super + n
+	st -e newsboat
+# YouTube Search
+super + y
+	st -e ytfzf -tl --pages=5
+# Update System and Applications
+super + u 
+  st -e sudo pacman -Syyu
